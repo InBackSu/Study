@@ -1,6 +1,6 @@
 ### Compile
 - 원시코드 ->　기계어
-![img.png](img.png)
+![Compile](Img/Compile.png)
 1. Preprocessor
 - #include, #define -> 소스코드
 2. Compiler

@@ -1,3 +1,4 @@
+![DataStorage](Img/DataStorage.png)
 ## SSD
 ## RAM
 ## CACHE
@@ -7,7 +8,6 @@
 - 1 -> 2 -> 3 -> RAM 순으로 데이터를 읽음
 ## REGISTER
 - CPU 내부에서 데이터 일시적 저장
-- ![DataStorage](Img/DataStorage.png)
 - **프로그램 카운터** 
   - 다음에 수행할 메모리 주소를 담음
 - **메모리 주소 레지스터** 

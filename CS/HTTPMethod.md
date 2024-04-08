@@ -17,3 +17,19 @@
 - OPTIONS : 리소스에 대한 통신 가능 옵션을 설명
 - CONNECT : 리소스로 식별되는 서버에 대한 터널 설정
 - TRACE : 리소스 경로에 따라 메세지 루프백 테스트 수행
+## 클라이언트에서 서버로 데이터 전송
+- ### query 전송
+  - GET
+  - 주로 필터에 쓰임
+- ### message body 전송
+  - POST, PUT, PATCH
+  - 회원가입, 리소스 등록, 변경 등
+- ### HTTP Form 전송
+  - HTML Form submit -> POST 전송 (예: 회원가입)
+- ### HTTP API 전송
+  - 서버 to 서버
+  - 앱 클라이언트
+  - 웹 클라이언트
+  - POST, PUT, PATCH : 메세지 바디로 데이터 전송
+  - GET : 쿼리 파라미터로 전송
+  - 주로 JSON 사용
